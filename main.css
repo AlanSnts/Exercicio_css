@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header {
+    background-color: black;
+    padding: 5px 0px;
+    border-radius: 0px 0px 60px 60px;
+}
+
+body header ul li a {
+    text-decoration: none;
+    padding: 30px
+}
+
+
+header h1 {
+    color: aliceblue;
+    letter-spacing: 5px;
+}
+
+header li a {
+    color: white;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0px auto;
+    object-fit: 100%;
+    padding: 15px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 188px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.articles article p {
+    margin-left: 2px;
+}
+
+#sports .articles article a {
+    background-color: rgb(44, 44, 97);
+    color: white;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50px;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#sports .articles article a:hover {
+    text-decoration: underline;
+    background-color: rgb(48, 48, 175) ;
+}
+
+#economy .articles article a {
+    background-color: rgb(84, 139, 76);
+    color: white;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50px;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#economy {
+    background-color: rgb(215, 231, 199);
+    height: 100%;
+    width: 100%;
+}
+
+#economy .articles article a:hover {
+    text-decoration: underline;
+    background-color: rgb(101, 211, 116) ;
+}
+.articles article p {
+    font-family: sans-serif;
+}
+
+.articles article h2 {
+    font-size: 33 px;
+}
+
+#sports {
+    background-color: rgba(0, 98, 255, 0.334);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    border-radius: 50px;
+    padding: 4px 10px;
+    
+}
+
+.button a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#technology, #economy, #sports {
+    margin: 0px 0px 0px 0px;
+}
+
+#technology {
+    background-color: rgb(148, 223, 236);
+}
+
+#technology img, #economy img, #sports img, #game img {
+    border-image: 8px;
+    border-radius: 8px;
+}
+
+.image-article {
+    height:280px;
+    object-fit: cover;
+}
+
+.title-section {
+    margin: 0px 0px 40px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#technology .articles article a {
+    background-color: rgb(212, 53, 53);
+    color: white;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50px;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#technology .articles article a:hover {
+    transition: 0.8ms ease;
+    background-color: rgb(211, 125, 125);
+}
+
+#game .articles article a {
+    background-color: rgb(101, 53, 212);
+    color: white;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 50px;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#game .articles article a:hover {
+    background-color: blueviolet;
+    transform: 0.8ms ease ;
+}
